@@ -1,19 +1,33 @@
-/* Asterisk wildcard selector to override default style added by the browser */
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Generic styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* General project styles */
+    color: black;
+}
+
 /* Header */
 header {
     background-color: #745637;
 }
+
 /* Main content */
-Main {
+main {
     background-color: bisque;
+    /* Maine element set up to take any surplus space */
+    flex: 1 0 auto;
 }
- /* Footer */
-footer {
+
+/* Footer */
+ footer {
     background-color: #c68644;
 }
 
