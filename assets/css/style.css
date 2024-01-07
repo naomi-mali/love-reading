@@ -15,12 +15,17 @@ body {
     flex-direction: column;
     /* General project styles */
     color: black;
-    font-family: 'bitter', sans-serif;
+    font-family: 'Bitter', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: #745637;
+    background-color: #e8d1a0;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #d0bc90;
 }
 
 h1 {
@@ -28,13 +33,13 @@ h1 {
 }
 /* Main content */
 main {
-    background-color: bisque;
+    background-color: #fcfaf5;
     /* Maine element set up to take any surplus space */
     flex: 1 0 auto;
 }
 
 /* Footer */
  footer {
-    background-color: #c68644;
+    background-color: #e8d1a0;
 }
 
