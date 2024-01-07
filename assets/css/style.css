@@ -60,6 +60,7 @@ main {
     background-color: #fcfaf5;
     /* Maine element set up to take any surplus space */
     flex: 1 0 auto;
+    margin-top: 170px;
    
 }
 /* Footer */
