@@ -15,22 +15,49 @@ body {
     flex-direction: column;
     /* General project styles */
     color: black;
-    font-family: 'Bitter', sans-serif;
+    font-family: 'brandon-grotesque', Sans-serif;
 }
 
 /* Header */
 header {
-    background-color: #e8d1a0;
+    background-color:#b1a07c;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #d0bc90;
+    box-shadow: 0 2px 2px #7a715d;
+}
+
+header a {
+ text-decoration: none;
+ color: inherit;   
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'brandon-grotesque', sans-serif;
+    letter-spacing: -.2px;
+    color: white;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-transform: uppercase;
+   
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    color: white;
+}
+
+#menu > li {
+margin-bottom: 1rem;
+}
+
 /* Main content */
 main {
     background-color: #fcfaf5;
@@ -40,6 +67,6 @@ main {
 
 /* Footer */
  footer {
-    background-color: #e8d1a0;
+    background-color: #b1a07c;
 }
 
