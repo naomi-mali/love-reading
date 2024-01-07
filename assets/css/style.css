@@ -35,27 +35,24 @@ header a {
 
 h1 {
     font-family: 'brandon-grotesque', sans-serif;
-    letter-spacing: -.2px;
+    letter-spacing: 3px;
     color: white;
     display: block;
     font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     text-transform: uppercase;
    
 }
 
 #menu {
     font-size: 110%;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     list-style-type: none;
     color: white;
+    font-size: 21px;
 }
 
 #menu > li {
-margin-bottom: 1rem;
+margin-bottom: 0.3em;
 }
 
 /* Main content */
@@ -63,6 +60,7 @@ main {
     background-color: #fcfaf5;
     /* Maine element set up to take any surplus space */
     flex: 1 0 auto;
+    margin-top: 170px;
 }
 
 /* Footer */
@@ -70,3 +68,43 @@ main {
     background-color: #b1a07c;
 }
 
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    #logo {
+     font-size: 280%;
+     line-height: 75px;
+     margin: 0 0.5rem;
+    }
+
+     /* Main content */
+     main {
+     margin-top: 110px;
+    }
+
+    /* Large devices (laptops and desktops, 992px and up) */
+     @media screen and (min-width: 992px) {
+     #menu a:hover {
+     border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+
+
+ 
