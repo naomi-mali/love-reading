@@ -94,25 +94,28 @@ label > i {
 
 /* Main content */
 main {
-    background-color: #fcfaf5;
+    background-color: #ffffff;
     /* Maine element set up to take any surplus space */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 65px;
 }
 
-#reading img{
-    width: 698;
-    height: 459px;
+/* Reading-image section */
+#reading img {
+    width: 90%;
+    height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    
-    
     }
-        
-   
+ /* Page intro */  
     
+    .text {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    } 
+
 /* Footer */
 footer {
     background-color: #b1a07c;
@@ -181,11 +184,38 @@ footer > h2 {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
+    /* Reading-image section */
+     #reading img {
+     width:70%;
+     height:400px;
+        }
+
+    /* Page intro */
+    .text {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+                 }
 }
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
     #menu a:hover {
     border-bottom: 1px solid white;
-            }
-        }
+    }
+
+     /* Reading-image section */
+    #reading img {
+    width: 65%;
+    height: 500px;
+       } 
+
+  /* Page intro */
+     .text {
+    margin: auto;
+    width: 68%;
+    padding: 10px;
+         }
+    }
+        
