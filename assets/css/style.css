@@ -1,5 +1,6 @@
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Satisfy&display=swap');
+
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -8,24 +9,27 @@
     box-sizing: border-box;
 }
 
-/* Generic styles */
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* General project styles */
     color: black;
-    font-family: 'brandon-grotesque', Sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Header */
 header {
-    background-color:#b1a07c;
+    background-color: #b1a07c;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #7a715d;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -34,12 +38,12 @@ header a {
 }
 
 h1 {
-    font-family: 'brandon-grotesque', sans-serif;
-    letter-spacing: 3px;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 4px;
     color: white;
     display: block;
-    font-size: 2em;
-    text-transform: uppercase;
+    font-size: 2.5em;
+    text-transform: capitalize; 
    
 }
 
@@ -52,7 +56,39 @@ h1 {
 }
 
 #menu > li {
-margin-bottom: 0.3em;
+margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #b1a07c;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #7a715d;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+label > i {
+    color: white;
 }
 
 /* Main content */
@@ -60,7 +96,7 @@ main {
     background-color: #fcfaf5;
     /* Maine element set up to take any surplus space */
     flex: 1 0 auto;
-    margin-top: 170px;
+    margin-top: 120px;
    
 }
 /* Footer */
@@ -95,15 +131,7 @@ footer > h2 {
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-        padding-right: 1rem;
-    }
+@mediascreenand (min-width: 768px) {
 
     #menu {
         display: flex;
@@ -114,23 +142,19 @@ footer > h2 {
     }
 
     #logo {
-     font-size: 280%;
-     line-height: 75px;
-     margin: 0 0.5rem;
+        font-size: 280%;
+        line-height: 75px;
+        margin: 00.5rem;
     }
 
-     /* Main content */
-     main {
-     margin-top: 110px;
+    /* Main content */
+    main {
+        margin-top: 120px;
     }
 
     /* Large devices (laptops and desktops, 992px and up) */
-     @media screen and (min-width: 992px) {
-     #menu a:hover {
-     border-bottom: 1px solid #3a3a3a;
+    @mediascreenand (min-width: 992px) {
+        #menua:hover {
+            border-bottom: 1pxsolid#3a3a3a;
+        }
     }
-}
-
-
-
- 
