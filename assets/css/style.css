@@ -98,8 +98,21 @@ main {
     /* Maine element set up to take any surplus space */
     flex: 1 0 auto;
     margin-top: 47px;
-   
 }
+
+#reading img{
+    width: 698;
+    height: 459px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+    
+    }
+        
+   
+    
 /* Footer */
 footer {
     background-color: #b1a07c;
