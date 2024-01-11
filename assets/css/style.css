@@ -1,8 +1,10 @@
 /* Google font import */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Satisfy&display=swap');
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
+
 * {
     padding: 0;
     margin: 0;
@@ -10,16 +12,22 @@
 }
 
 /* General styles */
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* General project styles */
-    color: black;
     font-family: 'Montserrat', sans-serif;
-}
+    color:#555555; 
+    
+    
+
+    }
+    
 
 /* Header */
+
 header {
     background-color: #b1a07c;
     padding: 0 1rem;
@@ -64,6 +72,7 @@ margin-bottom: 1em;
 }
 
 /* Navbar styles with dropdown toggle */
+
 nav {
     position: absolute;
     background-color: #b1a07c;
@@ -77,6 +86,7 @@ nav {
 }
 
 /* Nav toggle */
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -93,14 +103,30 @@ label > i {
 }
 
 /* Main content */
+
 main {
     background-color: #ffffff;
+    margin-top: 47px;
     /* Maine element set up to take any surplus space */
     flex: 1 0 auto;
-    margin-top: 65px;
+   
 }
+ 
+ /* Main title */
+
+ .main-title {
+     margin: auto;
+     width: 75%;
+     padding: 25px;
+     font-size: 1.5em;
+     margin-top: 40px;
+     color: #b1a07c;
+    text-shadow: black;
+
+ } 
 
 /* Reading-image section */
+
 #reading img {
     width: 90%;
     height: 300px;
@@ -108,15 +134,44 @@ main {
     margin-left: auto;
     margin-right: auto;
     }
- /* Page intro */  
-    
-    .text {
+
+ /* Page-paragraphs */
+
+ .text {
     margin: auto;
     width: 90%;
     padding: 10px;
-    } 
+    font-size: 21px;
+    font-weight: 400;
+    text-shadow: black;
+    color: #555555;
+ }
+    
+
+    /* Title for paragraph */
+
+    .paragraph-title {
+    margin: auto;
+    width: 90%;
+    padding: 15px;
+    font-size: 1.4em;
+    color: #b1a07c;
+    text-shadow: black;
+    }
+     
+    /* Bullet point */
+
+    .bullet-point {
+    margin: auto;
+    width: 90%;
+    padding: 15px;
+    font-size: 21px;
+    color: #555555;
+    }
+
 
 /* Footer */
+
 footer {
     background-color: #b1a07c;
     color:white;
@@ -180,42 +235,91 @@ footer > h2 {
     }
 
     /* Main content */
+
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 
+     /* Main title */
+
+     .main-title {
+     margin: auto;
+     width: 60%;
+     padding: 30px;
+     font-size: 1.5em;
+     margin-top: 66px;
+     color: #b1a07c;
+    
+     }
+
     /* Reading-image section */
+
      #reading img {
      width:70%;
      height:400px;
         }
 
-    /* Page intro */
+    /* Page paragraph */
+
     .text {
     margin: auto;
     width: 75%;
     padding: 10px;
-                 }
+    }
+
+    /* Title for paragraph */
+
+    .paragraph-title {
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+    font-size: 1.8em;
+    color: #b1a07c;
+    }
 }
 
     /* Large devices (laptops and desktops, 992px and up) */
+
     @media screen and (min-width: 992px) {
     #menu a:hover {
     border-bottom: 1px solid white;
     }
 
+    /* Main title */
+
+    .main-title {
+    margin: auto;
+    width: 60%;
+    padding: 25px;
+    font-size: 36px;
+          }
+
      /* Reading-image section */
+
     #reading img {
     width: 65%;
     height: 500px;
        } 
 
-  /* Page intro */
+   /* Page paragraph */
+
      .text {
     margin: auto;
     width: 68%;
     padding: 10px;
          }
+     /* Bullet point */
+        
+    .bullet-point {
+     margin: auto;
+     width: 69%;  
+     }
+    /* Title for paragraph */
+                
+    .paragraph-title {
+    margin: auto;
+    width: 69%;
+    }
     }
         
