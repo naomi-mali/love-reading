@@ -154,7 +154,9 @@ main {
     float: left;
     padding 15px
     }
-       
+       #book {
+        padding-left:25px;
+       }
 
  /* Page-paragraphs */
 
