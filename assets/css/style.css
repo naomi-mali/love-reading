@@ -122,7 +122,17 @@ main {
 
  } 
 
-/* Reading-image section */
+ .main-title2 {
+     margin: auto;
+     width: 60%;
+     padding: 25px;
+     font-size: 1.5em;
+     margin-top: 40px;
+     color: #b1a07c;
+     text-shadow: black;
+ }
+
+/* Image section */
 
 #reading img {
     width: 90%;
@@ -131,6 +141,20 @@ main {
     margin-left: auto;
     margin-right: auto;
     }
+
+    #bookclub img {
+        width: 90%;
+        height: 230px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #book img {
+    float: left;
+    padding 15px
+    }
+       
 
  /* Page-paragraphs */
 
@@ -147,7 +171,8 @@ main {
 
     /* Title for paragraph */
 
-    .paragraph-title {
+    .paragraph-
+    title {
     margin: auto;
     width: 90%;
     padding: 15px;
@@ -186,6 +211,7 @@ footer > h2 {
     padding: 0.5rem;
 
 }
+
 #social-networks {
     text-align: center;
     padding: 10px 0;
@@ -246,18 +272,27 @@ footer > h2 {
      margin: auto;
      width: 60%;
      padding: 30px;
-     font-size: 1.5em;
-     margin-top: 66px;
-     color: #b1a07c;
+     
     
      }
 
-    /* Reading-image section */
+     .main-title2 {
+     margin: auto;
+     width: 25%;
+             
+         }
+
+    /* Image section */
 
      #reading img {
      width:70%;
      height:400px;
         }
+
+    #bookclub img {
+    width: 70%;
+    height: 230px;
+                 } 
 
     /* Page paragraph */
 
