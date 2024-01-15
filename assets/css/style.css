@@ -118,7 +118,6 @@ main {
      font-size: 1.5em;
      margin-top: 40px;
      color: #b1a07c;
-    text-shadow: black;
 
  } 
 
@@ -129,7 +128,6 @@ main {
      font-size: 1.5em;
      margin-top: 40px;
      color: #b1a07c;
-     text-shadow: black;
  }
 
 /* Image section Home page */
@@ -161,7 +159,6 @@ margin-right: auto;
     padding: 10px;
     font-size: 19px;
     font-weight: 400;
-    text-shadow: black;
     color: #555555;
  }
     
@@ -174,7 +171,6 @@ margin-right: auto;
     padding: 15px;
     font-size: 1.4em;
     color: #b1a07c;
-    text-shadow: black;
     }
      
 /* Bullet point Home Page*/
@@ -289,11 +285,6 @@ footer > h2 {
     width: 70%;
     height: 230px;
                  } 
-
-    #book-img img {
-    padding-left:;
-    padding-right: ;
-    }
      
     /* Page paragraph */
 
