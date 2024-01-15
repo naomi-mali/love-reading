@@ -47,7 +47,7 @@ h1 {
     letter-spacing: 2px;
     color: white;
     display: block;
-    font-size: 2em;
+    font-size: 1.7em;
     text-transform: capitalize; 
    
 }
@@ -114,19 +114,16 @@ main {
  .main-title {
      margin: auto;
      width: 75%;
-     padding: 25px;
+     padding: 20px;
      font-size: 1.5em;
-     margin-top: 40px;
      color: #b1a07c;
-
  } 
 
  .main-title2 {
      margin: auto;
-     width: 73%;
-     padding: 25px;
+     width: 68%;
+     padding: 20px;
      font-size: 1.5em;
-     margin-top: 40px;
      color: #b1a07c;
  }
 
@@ -157,7 +154,7 @@ margin-right: auto;
     margin: auto;
     width: 90%;
     padding: 10px;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 400;
     color: #555555;
  }
@@ -292,6 +289,7 @@ footer > h2 {
     margin: auto;
     width: 75%;
     padding: 10px;
+    font-size: 20px;
     }
 
     /* Title for paragraph */
@@ -334,6 +332,7 @@ footer > h2 {
     margin: auto;
     width: 68%;
     padding: 10px;
+    font-size: 20px;
          }
      /* Bullet point */
         
