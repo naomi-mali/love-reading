@@ -109,7 +109,7 @@ main {
    
 }
  
- /* Main title */
+/* Main title */
 
  .main-title {
      margin: auto;
@@ -124,7 +124,7 @@ main {
 
  .main-title2 {
      margin: auto;
-     width: 60%;
+     width: 73%;
      padding: 25px;
      font-size: 1.5em;
      margin-top: 40px;
@@ -132,7 +132,7 @@ main {
      text-shadow: black;
  }
 
-/* Image section */
+/* Image section Home page */
 
 #reading img {
     width: 90%;
@@ -142,23 +142,18 @@ main {
     margin-right: auto;
     }
 
-    #bookclub img {
-        width: 90%;
-        height: 230px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+/* Images Section About Us Page */
 
-    #book img {
-    float: left;
-    padding 15px
-    }
-       #book {
-        padding-left:25px;
-       }
+#bookclub img {
+width: 90%;
+height: 230px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+        }
 
- /* Page-paragraphs */
+
+/* Page-paragraphs */
 
  .text {
     margin: auto;
@@ -171,10 +166,9 @@ main {
  }
     
 
-    /* Title for paragraph */
+/* Title for paragraph */
 
-    .paragraph-
-    title {
+.paragraph-title {
     margin: auto;
     width: 90%;
     padding: 15px;
@@ -183,9 +177,9 @@ main {
     text-shadow: black;
     }
      
-    /* Bullet point */
+/* Bullet point Home Page*/
 
-    .bullet-point {
+   .bullet-point {
     margin: auto;
     width: 90%;
     padding: 15px;
@@ -272,12 +266,12 @@ footer > h2 {
 
      .main-title {
      margin: auto;
-     width: 60%;
+     width: 65%;
      padding: 30px;
      
     
      }
-
+    
      .main-title2 {
      margin: auto;
      width: 25%;
@@ -296,6 +290,11 @@ footer > h2 {
     height: 230px;
                  } 
 
+    #book-img img {
+    padding-left:;
+    padding-right: ;
+    }
+     
     /* Page paragraph */
 
     .text {
