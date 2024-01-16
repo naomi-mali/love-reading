@@ -106,6 +106,9 @@ main {
     margin-top: 47px;
     /* Maine element set up to take any surplus space */
     flex: 1 0 auto;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
    
 }
  
@@ -219,6 +222,53 @@ margin-right: auto;
     
   #end-paragraph {
        padding-bottom: 90px;
+    }
+
+/* Form */
+
+#signup {
+background-image: url("../images/open-books.jpg");
+background-size: cover;
+background-position: 100%;
+padding: 20px 10% 0 10%;
+flex-grow: 1;
+}
+
+#signup-form {
+color: #ffffff;
+background-color: rgba(122, 99, 57, 0.6);
+padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    color: #555555;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+#book-genre {
+    width: 100%;
+    height: 27px;
+    font-size: 15px;
+    color: #555555;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 10px 22px;
+    font-size: 100%;
+    background-color: #fafafa;
+    color: rgb(116, 57, 34);
     }
 
 /* Footer */
@@ -350,14 +400,14 @@ footer > h2 {
     color: #b1a07c;
     }
 
-/* we are reading image */
+/* We Are Reading Image */
     
     #book-img {
     padding-left: 110px;
     padding-right: 25px;
     }
     
-/* We are reading paragraph section*/
+/* We Are Reading Paragraph Section*/
 
     #book-section {
       font-size: 25px;
@@ -366,7 +416,24 @@ footer > h2 {
     padding-right: 110px;
           }  
 
- 
+ /* Form */
+
+    .form-container {
+        margin-top: 150px;
+        margin-left: 60px;
+        margin-right:60px;
+    }
+
+   .text-input:hover {
+    border-color: #f16c6b;
+}
+
+   .join-button:hover {
+    background-color: #4b361f;
+    color: #eecdb2;
+}
+
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -449,6 +516,32 @@ footer > h2 {
         #map {
             padding: 20px 210px 20px 210px;
         }
-   
+   /* Form */
+
+    .form-container {
+     margin-top: 75px;
+     margin-left: 200px;
+     margin-right: 200px;
+     margin-bottom: 75px;
+        }
+
+    .text-input {
+    width: 85%;
+    height: 35px;
+    }
+    #book-genre {
+    width: 85%;
+    height: 32px;
+    font-size: 15px;
+        }
+
+   .text-input:hover {
+       border-color: #f16c6b;
+   }
+
+   .join-button:hover {
+       background-color: #4b361f;
+       color: #e9ccb5;
+   }
     }
         
