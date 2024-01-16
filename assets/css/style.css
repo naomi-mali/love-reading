@@ -127,6 +127,13 @@ main {
      color: #b1a07c;
  }
 
+ #map-title {
+    margin: auto;
+    width: 65%;
+    padding: 20px;
+    font-size: 1.5em;
+    color: #b1a07c;
+ }
 /* Image section Home page */
 
 
@@ -292,16 +299,18 @@ footer > h2 {
      margin: auto;
      width: 65%;
      padding: 30px;
-     
-    
      }
     
      .main-title2 {
      margin: auto;
      width: 35%;
      font-size: 30px;       
-         }
+    }
 
+    #map-title {
+    width: 35%;
+    font-size: 30px;
+    }
 /* Image section Home Page */
 
      #reading img {
@@ -374,7 +383,16 @@ footer > h2 {
     width: 60%;
     padding: 25px;
     font-size: 36px;
-          }
+    }
+
+    .main-title2 {
+     width: 24%;
+     }
+
+     #map-title {
+        width: 33%;
+        font-size: 32px;
+     }
 
 /* Reading-image section */
 
