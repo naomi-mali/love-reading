@@ -141,7 +141,7 @@ main {
 
 
 #reading img {
-    width: 90%;
+    width: 85%;
     height: 230px;
     display: block;
     margin-left: auto;
@@ -150,7 +150,7 @@ main {
 
 /* Images Section About Us Page */
 
-#bookclub img {
+#bookclub img  {
 width: 90%;
 height: 230px;
 display: block;
@@ -357,6 +357,16 @@ footer > h2 {
      font-size: 30px;       
     }
 
+    /* Bullet point Home Page*/
+    
+    .bullet-point {
+    margin: auto;
+    width: 75%;
+    padding: 15px;
+        }
+
+/* Title for Map */
+
     #map-title {
     width: 35%;
     font-size: 30px;
@@ -364,7 +374,7 @@ footer > h2 {
 /* Image section Home Page */
 
      #reading img {
-     width:70%;
+     width:72%;
      height:400px;
         }
 
