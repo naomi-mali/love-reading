@@ -353,14 +353,17 @@ footer > h2 {
 
      .main-title {
      margin: auto;
-     width: 65%;
+     width: 55%;
      padding: 30px;
+     margin-top: 75px;
+     font-size: 30px;
      }
     
      .main-title2 {
      margin: auto;
      width: 35%;
-     font-size: 30px;       
+     font-size: 30px;   
+    margin-top: 75px;
     }
 
     /* Bullet point Home Page*/
@@ -410,7 +413,7 @@ footer > h2 {
 
     .paragraph-title {
     margin: auto;
-    width: 70%;
+    width: 75%;
     padding: 15px;
     font-size: 1.8em;
     }
@@ -459,17 +462,19 @@ footer > h2 {
     border-bottom: 1px solid white;
     }
 
-/* Main title */
+/* Main titles */
 
     .main-title {
     margin: auto;
     width: 60%;
     padding: 25px;
     font-size: 36px;
+    padding-top: 35px;
     }
 
     .main-title2 {
      width: 24%;
+    margin-top: 25px;
      }
 
      #map-title {
