@@ -25,6 +25,7 @@ Love Reading Bookclub online platform dedicated to the reading community of Warr
     - [Content](#content)
   - [Deployment](#deployment)
   - [Testing](#testing)
+  - [Credits](#credits)
 
 ## Purpose and audience
 
@@ -157,7 +158,19 @@ The live site can be viewed at: <https://naomi-mali.github.io/love-reading-bookc
 ## Testing
 
 - The page has a great rating in lighthouse.
-- ![image](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/f122cbeb-146d-47b4-8782-c024577622cf)
+![image](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/f122cbeb-146d-47b4-8782-c024577622cf)
 
 - The page has no errors in html validator.
--
+![Showing results for https___naomi-mali github io_love-reading-bookclub_ - Nu Html Checker (1)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/4c4bff7e-8754-425b-95c5-e28846e4bddc)
+
+- The page has no errors css validator service.
+![W3C CSS Validator results for https___naomi-mali github io_love-reading-bookclub_ (CSS level 3 + SVG (1)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/4ceb861f-8c09-4ba9-9ae0-8791aee8c983)
+
+## Credits 
+
+- I took inspiration from the Love Running walkthrough , mostly for the header and footer.
+- Content was taken from various book club sites:
+<https://giveabook.org.uk/2023/06/20/the-benefits-of-book-clubs/>
+<https://celadonbooks.com/how-to-find-a-book-club-near-you/#>
+<https://www.thewilloughbybookclub.co.uk/pages/about-us>
+- I also would like to thank my mentor at Code Institute, Spencer Barriball for guidance, feedback throughout the duration of the this project.
