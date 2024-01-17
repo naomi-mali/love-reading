@@ -156,6 +156,7 @@ height: 230px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 25px;
         }
 
 /* We are reading image */
@@ -382,7 +383,7 @@ footer > h2 {
 
     #bookclub img {
     width: 70%;
-    height: 230px;
+    height: 330px;
     } 
 
 /* About Us Map */
@@ -474,7 +475,7 @@ footer > h2 {
 /* Reading-image section */
 
     #reading img {
-    width: 65%;
+    width: 66%;
     height: 500px;
        } 
 
@@ -507,7 +508,7 @@ footer > h2 {
 
 #bookclub img {
     width: 67%;
-    height: 220px;
+    height: 390px;
 }
     
 /* we are reading image */
