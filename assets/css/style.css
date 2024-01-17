@@ -237,7 +237,7 @@ flex-grow: 1;
 
 #signup-form {
 color: #ffffff;
-background-color: rgba(122, 99, 57, 0.4);
+background-color: rgba(122, 99, 57, 0.7);
 padding: 30px;
 }
 
@@ -432,6 +432,7 @@ footer > h2 {
         margin-top: 150px;
         margin-left: 60px;
         margin-right:60px;
+        margin-bottom: 100px;
     }
 
    .text-input:hover {
