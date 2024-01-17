@@ -428,8 +428,8 @@ footer > h2 {
     border-color: #f16c6b;
 }
 
-   .join-button:hover {
-    background-color: #4b361f;
+.join-button:hover {
+ background-color: #4b361f;
     color: #eecdb2;
 }
 
@@ -488,7 +488,7 @@ footer > h2 {
     
  /* Title for paragraph */
                 
-    .paragraph-title {
+   .paragraph-title {
     margin: auto;
     width: 69%;
     }
@@ -497,7 +497,7 @@ footer > h2 {
 
 #bookclub img {
     width: 67%;
-    height: 220x;
+    height: 220px;
 }
     
 /* we are reading image */
@@ -511,11 +511,12 @@ footer > h2 {
         padding-right:200px;
     }
 
-        /* About Us Map */
+    /* About Us Map */
     
-        #map {
-            padding: 20px 210px 20px 210px;
-        }
+    #map {
+    padding: 20px 210px 20px 210px;
+    }
+
    /* Form */
 
     .form-container {
@@ -526,11 +527,11 @@ footer > h2 {
         }
 
     .text-input {
-    width: 85%;
+    width: 90%;
     height: 35px;
     }
     #book-genre {
-    width: 85%;
+    width: 90%;
     height: 32px;
     font-size: 15px;
         }
