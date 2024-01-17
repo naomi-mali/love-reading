@@ -120,6 +120,7 @@ main {
      padding: 20px;
      font-size: 1.5em;
      color: #9A7F59;
+     margin-top:45px;
  } 
 
  .main-title2 {
@@ -128,6 +129,7 @@ main {
      padding: 20px;
      font-size: 1.5em;
      color: #9A7F59;
+    padding-top: 45px;
  }
 
  #map-title {
@@ -226,6 +228,9 @@ margin-bottom: 25px;
     }
 
 /* Form */
+.form-container {
+margin-bottom: 150px;
+}
 
 #signup {
 background-image: url("../images/open-books.jpg");
@@ -432,7 +437,7 @@ footer > h2 {
         margin-top: 150px;
         margin-left: 60px;
         margin-right:60px;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
 
    .text-input:hover {
