@@ -166,11 +166,15 @@ The live site can be viewed at: <https://naomi-mali.github.io/love-reading-bookc
 - The page has no errors css validator service.
 ![W3C CSS Validator results for https___naomi-mali github io_love-reading-bookclub_ (CSS level 3 + SVG (1)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/4ceb861f-8c09-4ba9-9ae0-8791aee8c983)
 
-## Credits 
+## Credits
 
 - I took inspiration from the Love Running walkthrough , mostly for the header and footer.
 - Content was taken from various book club sites:
+
 <https://giveabook.org.uk/2023/06/20/the-benefits-of-book-clubs/>
+
 <https://celadonbooks.com/how-to-find-a-book-club-near-you/#>
+
 <https://www.thewilloughbybookclub.co.uk/pages/about-us>
+
 - I also would like to thank my mentor at Code Institute, Spencer Barriball for guidance, feedback throughout the duration of the this project.
