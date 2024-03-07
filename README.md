@@ -145,7 +145,7 @@ Our sign up page is where the users can sign up to be part of our book club, whe
 
 ## Deployment
 
-The Together Cycling site was deployed to [GitHub](https://github.com) pages, following these steps:
+The Love Reading Bookclub site was deployed to [GitHub](https://github.com) pages, following these steps:
 
 1. Go to the [Love-Reading-Bookclub repository](https://github.com/naomi-mali/love-reading-bookclub)
 2. Go to the *Settings* tab (top left in the menu)
